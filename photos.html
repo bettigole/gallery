@@ -4,7 +4,7 @@
   <head>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, user-scalable=no" />
-      <title>Photo Gallery - Home</title>
+      <title>Photo Gallery - photos</title>
       <link rel="stylesheet" href="public/lightgallery/css/lightgallery.css" />
       <link rel="stylesheet" href="public/videojs/video-js.min.css" />
       <link rel="stylesheet" href="public/lightgallery/css/lg-exif.min.css" />
@@ -28,32 +28,48 @@
         Breadcrumbs of parent albums
       -->
       <nav class="breadcrumbs">
-    <a class="breadcrumb-item" href="index.html">Home</a>
+    <a class="breadcrumb-item" href="index.html">Home</a>&nbsp;/&nbsp;<a class="breadcrumb-item" href="photos.html">photos</a>
       </nav>
     
       <!--
         Nested albums, if any
       -->
       <div id="albums">
-    <a href="maps.html" style="background-image: url('media/small/maps/carbon_distribution.png')">
-            <div class="info">
-              <h3>maps</h3>
-              <div class="summary">6 photos</div>
-              <div class="date">13 Aug 2021 - 13 Aug 2021</div>
-            </div>
-          </a><a href="photos.html" style="background-image: url('media/small/photos/BioPic.jpg')">
-            <div class="info">
-              <h3>photos</h3>
-              <div class="summary">2 photos</div>
-              <div class="date">26 Sep 2018 - 13 Aug 2021</div>
-            </div>
-          </a>  </div>
+      </div>
     
       <!--
         All photos and videos
       -->
       <ul id="media" class="clearfix">
-      </ul>
+          
+            <li data-src="media/large/photos/BioPic.jpg"
+                data-sub-html=""
+                data-download-url="media/original/photos/BioPic.jpg"
+                
+                data-filename="BioPic.jpg"
+          
+              >
+              <a href="media/original/photos/BioPic.jpg">
+                <img src="media/thumbs/photos/BioPic.jpg"
+                     width="120"
+                     height="120"
+                     alt="BioPic.jpg" />
+              </a>
+            </li>      
+            <li data-src="media/large/photos/gis_baby_s21.png"
+                data-sub-html=""
+                data-download-url="media/original/photos/gis_baby_s21.png"
+                
+                data-filename="gis_baby_s21.png"
+          
+              >
+              <a href="media/original/photos/gis_baby_s21.png">
+                <img src="media/thumbs/photos/gis_baby_s21.png"
+                     width="120"
+                     height="120"
+                     alt="gis_baby_s21.png" />
+              </a>
+            </li>  </ul>
     
       <!--
         Pagination
